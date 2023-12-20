@@ -22,7 +22,7 @@ jobs:
         with:
           script: |
             const result = await github.actions.createWorkflowDispatch({
-              workflow: 'main.yml'
+              workflow: 'exec.yml'
             });
             console.log(result);
 
