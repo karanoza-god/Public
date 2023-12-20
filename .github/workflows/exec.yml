@@ -1,4 +1,4 @@
-name: Execute Snowflake Queries
+name: Execute
 
 on:
   workflow_dispatch:
